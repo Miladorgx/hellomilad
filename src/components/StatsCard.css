@@ -1,0 +1,42 @@
+.stats-card {
+  position: relative;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 24px;
+  overflow: hidden;
+}
+
+.stats-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+}
+
+.stats-card p {
+  margin: 0;
+  font-size: 14px;
+  color: var(--light-text);
+}
+
+.progress-circle {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+.stats-card.red { background-color: var(--red-color); }
+.stats-card.red .progress-circle { background-color: var(--red-dark); }
+
+.stats-card.yellow { background-color: var(--yellow-color); }
+.stats-card.yellow .progress-circle { background-color: var(--yellow-dark); }
+
+.stats-card.cyan { background-color: var(--cyan-color); }
+.stats-card.cyan .progress-circle { background-color: var(--cyan-dark); }

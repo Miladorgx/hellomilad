@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-blue: #0d6efd;
+  --light-blue: #e0f2fe;
+  --dark-text: #344054;
+  --light-text: #667085;
+  --border-color: #eaecf0;
+  --background-color: #f8f9fa;
+  --card-bg: #ffffff;
+  
+  --red-color: #fee2e2;
+  --red-dark: #ef4444;
+  --yellow-color: #fef9c3;
+  --yellow-dark: #f59e0b;
+  --cyan-color: #cffafe;
+  --cyan-dark: #0891b2;
+
+  --chart-stroke: #4f46e5;
+  --chart-grid: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  font-family: 'Vazirmatn', sans-serif;
+  background-color: var(--background-color);
+  color: var(--dark-text);
+}
+
+.dashboard-container {
+  display: flex;
+  direction: rtl;
+}
